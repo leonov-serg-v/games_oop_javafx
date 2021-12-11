@@ -25,8 +25,7 @@ public final class Logic {
             try {
                 findBy(step);
                 throw new OccupiedCellException();
-            }
-                catch (FigureNotFoundException e) {
+            } catch (FigureNotFoundException e) {
             }
         }
         return true;
